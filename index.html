@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- === Global CSS === -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.0/font/bootstrap-icons.css"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="css/global.css" />
+
+    <!-- === CSS RESPONSIVE === -->
+    <link
+      rel="stylesheet"
+      href="css/desktop.css"
+      media="screen and (min-width: 1024px)"
+    />
+    <link
+      rel="stylesheet"
+      href="css/tablet.css"
+      media="screen and (min-width: 481px) and (max-width: 1023px)"
+    />
+    <link
+      rel="stylesheet"
+      href="css/movil.css"
+      media="screen and (max-width: 480px)"
+    />
+
+    <title>Encriptador</title>
+  </head>
+  <body>
+    <!-- === Welcome to my code === -->
+
+    <header>
+      <img src="assets/logo.svg" alt="Image_Alura" class="logo_search" />
+    </header>
+
+    <main class="main_father">
+      <section class="child_main">
+        <div class="div_area">
+          <textarea
+            name=""
+            id="text_input"
+            cols="30"
+            rows="10"
+            placeholder="Ingrese el texto aquí"
+          ></textarea>
+          <label for="text_input" id="allowed_text">
+            <i class="bi bi-exclamation-circle-fill"></i> Solo letras minúsculas
+            y sin acentos
+          </label>
+        </div>
+
+        <div class="div_input">
+          <input
+            type="button"
+            value="Encriptar"
+            id="encriptar"
+            onclick="encriptar()"
+          />
+          <input
+            type="button"
+            value="Desencriptar"
+            id="desencriptar"
+            onclick="desencriptar()"
+          />
+        </div>
+      </section>
+
+      <section class="child_message">
+        <div class="div_area_search">
+          <img src="assets/Muñeco.svg" alt="" width="75%" id="doll" />
+          <div class="search_message">
+            <p class="text_interactive" id="text_result">
+              Oye, no deberías hacer eso.
+            </p>
+            <h3 class="text_static_tittle" id="title_message">
+              Ningún mensaje fue encontrado
+            </h3>
+            <p class="text_static" id="error_message">
+              Ingresa el texto que desees encriptar o desencriptar
+            </p>
+          </div>
+          <button
+            class="button_copy"
+            id="button_interactive"
+            onclick="copiarTexto()"
+          >
+            Copiar
+          </button>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer_page">
+      <a href="https://www.linkedin.com/in/vidal-chan/" target="_blank"
+        ><i class="bi bi-linkedin"></i
+      ></a>
+      &#8226;
+      <a href="https://github.com/VectraDeveloper" target="_blank"
+        ><i class="bi bi-github"></i
+      ></a>
+    </footer>
+
+    <script src="Js/script.js"></script>
+    <script src="Js/shake.js"></script>
+  </body>
+</html>
