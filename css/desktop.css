@@ -193,9 +193,7 @@ footer.footer_page {
   text-align: center;
   color: #052051;
   font-size: 2rem;
-  background-image: url(../assets/wave.png);
-  background-color: #6073d414;
-  animation: wave 10s linear infinite;
+  background-color: rgb(96 115 212 / 3%);
 }
 
 footer.footer_page i.bi-linkedin {
@@ -256,12 +254,6 @@ button.button_copy {
   }
   75% {
     transform: translateY(5px);
-  }
-}
-
-@keyframes wave {
-  100% {
-    background-position-x: 200%;
   }
 }
 
