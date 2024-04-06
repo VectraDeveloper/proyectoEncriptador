@@ -225,7 +225,7 @@ button.button_copy {
   display: none;
 }
 
-/* === Interective Text==== */
+/* === Interective Text ==== */
 #title_message {
   animation: none;
   display: inline-block;
@@ -257,7 +257,7 @@ button.button_copy {
   }
 }
 
-/* === Media Query */
+/* === Media Query === */
 @media screen and (min-width: 1024px) and (max-width: 1550px) {
   div.div_area_search {
     width: 80%;
