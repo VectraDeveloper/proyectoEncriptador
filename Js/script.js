@@ -6,11 +6,11 @@ function encriptar() {
   placeHolder = placeHolderElemento.getAttribute("placeholder");
 
   let textoCifrado = texto
-    .replace(/e/gi, "enter")
-    .replace(/i/gi, "imes")
-    .replace(/a/gi, "ai")
-    .replace(/o/gi, "ober")
-    .replace(/u/gi, "ufat");
+    .replace(/e/g, "enter")
+    .replace(/i/g, "imes")
+    .replace(/a/g, "ai")
+    .replace(/o/g, "ober")
+    .replace(/u/g, "ufat");
 
   let caracteresEspeciales = validarElement();
 
@@ -37,11 +37,11 @@ function desencriptar() {
   placeHolder = placeHolderElemento.getAttribute("placeholder");
 
   textoCifrado = texto
-    .replace(/ufat/gi, "u")
-    .replace(/ober/gi, "o")
-    .replace(/ai/gi, "a")
-    .replace(/imes/gi, "i")
-    .replace(/enter/gi, "e");
+    .replace(/ufat/g, "u")
+    .replace(/ober/g, "o")
+    .replace(/ai/g, "a")
+    .replace(/imes/g, "i")
+    .replace(/enter/g, "e");
 
   let caracteresEspeciales = validarElement();
 
