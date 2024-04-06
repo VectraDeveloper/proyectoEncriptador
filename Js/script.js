@@ -37,11 +37,11 @@ function desencriptar() {
   placeHolder = placeHolderElemento.getAttribute("placeholder");
 
   textoCifrado = texto
-    .replace(/enter/gi, "e")
-    .replace(/imes/gi, "i")
-    .replace(/ai/gi, "a")
+    .replace(/ufat/gi, "u")
     .replace(/ober/gi, "o")
-    .replace(/ufat/gi, "u");
+    .replace(/ai/gi, "a")
+    .replace(/imes/gi, "i")
+    .replace(/enter/gi, "e");
 
   let caracteresEspeciales = validarElement();
 
