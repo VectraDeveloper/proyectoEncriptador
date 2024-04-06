@@ -37,4 +37,10 @@ body {
     padding: 15px 10px;
     width: 40%;
   }
+  footer.footer_page {
+    height: 10%;
+    margin-top: 18px;
+  }
+}
+
 }
