@@ -11,6 +11,10 @@ function validarElement() {
   return regex.test(textArea.value);
 }
 
+/* =========================
+   ==== Animación Shake ====
+   ========================*/
+
 function shake() {
   const elemento = document.getElementById("title_message");
 
@@ -20,10 +24,7 @@ function shake() {
     elemento.style.animation = "";
   }, 500);
 }
-
-/* =========================
-   ==== Animación Shake ====
-   ========================*/
+
 
 function shake2() {
   const elemento = document.getElementById("allowed_text");
