@@ -24,7 +24,6 @@ function shake() {
     elemento.style.animation = "";
   }, 500);
 }
-
 
 function shake2() {
   const elemento = document.getElementById("allowed_text");
